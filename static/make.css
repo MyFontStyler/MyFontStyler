@@ -1,0 +1,347 @@
+.make {
+  position: relative;
+  padding-top: 200px;
+}
+
+.make__slogan {
+  position: absolute;
+  font-size: 302px;
+  font-weight: 700;
+  color: #bacfe6;
+  top: 100px;
+  left: 50%;
+  margin-left: -230px;
+  opacity: 0.3;
+  letter-spacing: 0.03em;
+}
+
+.make__slogan span {
+  padding-left: 270px;
+}
+
+.make__contents {
+  position: relative;
+  max-width: 1280px;
+  padding: 0 30px;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.make__contents__title {
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 2;
+}
+
+.make__contents__title span {
+  color: #205d93;
+}
+
+.make__contents__paragraph {
+  position: relative;
+  margin-top: 40px;
+  font-size: 19px;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.make__contents__example {
+  list-style: none;
+  padding: 0 150px;
+  margin: 0;
+  margin-top: 50px;
+}
+
+.make__contents__example__list {
+  position: relative;
+  width: calc(50% - 25px);
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 75px;
+}
+
+.make__contents__example__list:nth-child(2n) {
+  margin-right: 0;
+}
+
+.make__contents__example__list__preview img {
+  width: 100%;
+  height: auto;
+}
+
+.make__contents__example__list__title {
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.make__contents__button, .make__download__button, .make__preprocess__button, .make__font__generate {
+  cursor: pointer;
+  display: table;
+  padding: 10px;
+  width: 387px;
+  margin-top: 50px;
+  margin: 0 auto;
+  font-size: 19px;
+  font-weight: 700;
+  background: #E8F5FF;
+  text-align: center;
+  margin-top: 15px;
+  border-radius: 10px;
+  border-style: none solid solid none;
+  border-color: #CCDBE7;
+}
+
+.make__download__button button {
+  font-weight: 700;
+  font-size: 19px;
+  border: none;
+  background-color: #E8F5FF;
+}
+
+.make__upload__button {
+  display: table;
+  padding: 10px;
+  width: 387px;
+  margin-top: 50px;
+  margin: 0 auto;
+  font-size: 19px;
+  font-weight: 700;
+  background: #E8F5FF;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.make__upload__button h2 {
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+#make__upload__file__button {
+  position: relative;
+  float: left;
+  width: 170px;
+}
+
+#make__upload__submit__button {
+  cursor: pointer;
+  position: relative;
+  margin-left: 20px;
+  font-size: 14px;
+  padding: 2px 5px;
+}
+
+.make__upload__button button {
+  position: absolute;
+  font-size: 14px;
+  margin-left: 6px;
+  padding: 2px 5px;
+}
+
+.make__preprocess__button {
+  border: none;
+  background-color: #EEE;
+  border-style: none solid solid none;
+  border-color: lightgray;
+}
+
+.make__train__button {
+  background-color: #EEE;
+  display: table;
+  padding: 10px;
+  width: 387px;
+  margin-top: 50px;
+  margin: 0 auto;
+  font-size: 19px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.make__font__name__button {
+  background-color: #EEE;
+  display: table;
+  padding: 10px;
+  width: 387px;
+  margin-top: 50px;
+  margin: 0 auto;
+  font-size: 19px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.make__train__button h2 {
+  font-size: 19px;
+  position: relative;
+  float: left;
+  margin-left: 15px;
+}
+
+.make__train__button input {
+  position: relative;
+  margin-left: -75px;
+}
+
+#make__train__start__button {
+  cursor: pointer;
+  font-size: 14px;
+  padding: 2px 5px;
+  margin-right: -270px;
+  position: relative;
+  margin-top: -23px;
+}
+
+.make__font__name__button h2 {
+  font-size: 19px;
+  position: relative;
+  float: left;
+  margin-left: 15px;
+}
+
+.make__font__name__button input {
+  position: relative;
+  margin-left: -55px;
+}
+
+#make__font__image__button {
+  cursor: pointer;
+  font-size: 14px;
+  padding: 2px 20px;
+  margin-right: -272px;
+  position: relative;
+  margin-top: -23px;
+}
+
+.make__font__generate {
+  border: none;
+  background-color: #E8F5FF;
+  border-style: none solid solid none;
+  border-color: #ccdbe7;
+}
+
+.make__contents__semi_title {
+  margin-top: 180px;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.make__contents__semi_paragraph {
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.make__contents__fonts {
+  list-style: none;
+  margin: 0;
+  margin-top: 58px;
+  padding: 0 100px;
+}
+
+.make__contents__fonts__list {
+  position: relative;
+  width: calc(33.33% - 33.33px);
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.make__contents__fonts__list:nth-child(3n) {
+  margin-right: 0;
+}
+
+.make__contents__fonts__list__image {
+  position: relative;
+  padding-top: 60%;
+  border: 2px solid #eee;
+  background: #fff;
+}
+
+.make__contents__fonts__list__image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: calc(100% - 30px);
+  height: auto;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#make__contents__fonts__2__image {
+  width: 115px;
+  margin-top: 10px;
+}
+
+.make__contents__fonts__list__title {
+  margin-top: 13px;
+  margin-left: 8px;
+  font-size: 17px;
+  font-weight: 700;
+  float: left;
+}
+
+.make__contents__fonts__list__paragraph {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.make__slogan-2 {
+  position: absolute;
+  font-size: 302px;
+  font-weight: 700;
+  color: #bacfe6;
+  bottom: 230px;
+  left: 50%;
+  margin-left: -700px;
+  opacity: 0.3;
+  letter-spacing: 0.03em;
+}
+
+.make__caution {
+  position: relative;
+  background: #eee;
+  margin-top: 200px;
+  padding: 30px 100px;
+}
+
+.make__caution__contents {
+  position: relative;
+  max-width: 1280px;
+  padding: 0 130px;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.make__caution__contents__title {
+  font-size: 19px;
+  font-weight: 700;
+  color: #555;
+  width: 130px;
+  height: 150px;
+  border-right: 2px solid rgb(200, 200, 200);
+  float: left;
+}
+
+.make__caution__contents__lists {
+  width: calc(100% - 130px);
+  float: left;
+  padding-left: 50px;
+}
+
+.make__caution__contents__lists li {
+  font-size: 17px;
+  font-weight: 400;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.make__caution__contents__lists li span {
+  font-size: 19px;
+  padding-right: 30px;
+}

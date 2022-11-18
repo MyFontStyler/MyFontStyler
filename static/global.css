@@ -1,0 +1,130 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+* {
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
+    "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", sans-serif;
+}
+
+/* global box-sizing */
+*,
+*:after,
+*:before {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* html element 62.5% font-size for REM use */
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  position: relative;
+  padding: 0;
+  margin: 0 auto;
+  transition: opacity 1s;
+  height: 100%;
+  background: #fff;
+  overscroll-behavior: none;
+  outline: none;
+  -ms-overflow-style: none;
+  min-height: -webkit-fill-available;
+  min-width: 1280px;
+}
+body {
+  min-height: 100vh;
+}
+
+/* clear */
+.clear:before,
+.clear:after {
+  content: " ";
+  display: table;
+}
+
+.clear:after {
+  clear: both;
+}
+
+.clear {
+  *zoom: 1;
+}
+
+pre {
+  word-wrap: break-word;
+  overflow: auto;
+  white-space: pre-wrap;
+}
+
+p,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a:focus {
+  outline: 0;
+}
+
+a:hover,
+a:active {
+  outline: 0;
+}
+
+input:focus {
+  outline: 0;
+}
+
+.parents {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+*:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: #555;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background-color: #ffd000;
+  color: #232323;
+}

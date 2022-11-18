@@ -1,0 +1,114 @@
+.list {
+  position: relative;
+  padding: 200px 0;
+  min-height: 250vh;
+}
+
+.list__slogan {
+  position: absolute;
+  font-size: 302px;
+  font-weight: 700;
+  color: #bacfe6;
+  top: 100px;
+  right: -10%;
+  opacity: 0.3;
+  letter-spacing: 0.03em;
+}
+
+.list__slogan span {
+  padding-left: 270px;
+}
+
+.list__contents {
+  position: relative;
+  max-width: 1280px;
+  padding: 0 30px;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.list__contents__title {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 2;
+  padding-left: 150px;
+}
+
+.list__contents__title span {
+  color: #205d93;
+}
+
+.list__contents__paragraph {
+  position: relative;
+  margin-top: 50px;
+  font-size: 24px;
+  padding-left: 150px;
+}
+
+.list__contents__fonts {
+  list-style: none;
+  padding: 0 50px;
+  margin: 0;
+  margin-top: 200px;
+}
+
+.list__contents__fonts__list {
+  position: relative;
+  width: calc(33.33% - 33.33px);
+  height: 220px;
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  padding: 0 15px;
+  padding-top: 30px;
+  border-top: 2px solid #555;
+}
+
+.list__contents__fonts__list:nth-child(3n) {
+  margin-right: 0;
+}
+
+.list__contents__fonts__list__title {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.list__contents__fonts__list__title span {
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.list__contents__fonts__list__preview {
+  margin-top: 30px;
+}
+
+.list__contents__fonts__list__preview img {
+  width: 100%;
+  height: auto;
+}
+
+.list__contents__fonts__list__download{
+  background-color: #205d93;
+  padding: 5px 15px;
+  border-radius: 8px;
+  margin-top: 8px;
+  margin-right: 5px;
+  float: right;
+  font-size: 15px;
+}
+
+.list__contents__fonts__list__download--btn{
+  color: #fff;
+}
+
+.list__slogan-2 {
+  position: absolute;
+  font-size: 302px;
+  font-weight: 700;
+  color: #bacfe6;
+  bottom: 130px;
+  left: 40%;
+  margin-left: -700px;
+  opacity: 0.3;
+  letter-spacing: 0.03em;
+}
